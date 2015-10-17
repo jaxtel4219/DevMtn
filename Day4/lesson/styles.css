@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color :#a9a9a9
+}
+
+
+header {
+  background-color: black;
+  height: 45px;
+}
+  header a {
+    margin: 0 150px;
+    line-height: 45px; /* centers text vertically within header*/
+    
+  }
+
+.sticky-right {
+  float: right;
+}  
+ 
+@media (max-width: 600px) {
+  header {
+    text-align: center;
+  }
+  header .sticky-right{
+    display: none; /* hides elements when display is less than 600px (won't work with percentages*/
+  }
+  
+}  
+
+@media all and (min-width: 600px) and (maxa-width: 682px) {
+  header .sticky-right;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0 20 0 0px;
+}
+
+.container{
+  background-color: white;
+  margin: 0 auto;
+  width: 80%;
+  min-height: 100px;
+  margin-top: 20px;
+  border-radius: 15%;
+  border: 2px;
+  text-align: center;
+  
+}
+
+.container img {
+  max-width: 100%;
+  
+}

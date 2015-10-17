@@ -1,0 +1,28 @@
+* {
+	top:0;
+	left: 0;
+}
+html {
+	background-color: lightgray;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 100%;
+	margin: 40%, auto;
+	position: relative;
+	display: inline-block;
+}
+
+.top-container {
+	height: 30%;
+	position: relative;
+	background-color: pink;
+}
+
+.bottom-container {
+	top: 50%;
+	height: 50%;
+	position: relative;
+	background-color: white;
+}

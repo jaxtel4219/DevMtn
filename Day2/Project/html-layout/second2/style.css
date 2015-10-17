@@ -1,0 +1,51 @@
+* {
+  margin: 0; 
+  padding: 0;
+  border: 0;
+ font-size: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.left {
+	display: inline-block;
+	width: 33%;
+	height: 100%;
+	background-color: #008AE6
+}
+
+.center {
+	display: inline-block;
+	width: 33%;
+	height: 100%;
+	background-color: #00FFCC
+}
+
+.right {
+	display: inline-block;
+	top: 0;
+	width: 34%;
+	height: 100%;
+	background-color: #CCE680
+}
+
+.bottom-right {
+	position: absolute;
+	top: 80%;
+	left: 66%;
+	width: 34%;
+	height: 20%;
+	background-color: red;	
+}
+
+.bottom-right-text {
+	position: absolute;
+	top: 80%;
+	left: 66%;
+	width: 34%;
+	height: 20%;
+	color: white;	
+}

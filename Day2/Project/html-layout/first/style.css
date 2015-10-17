@@ -1,0 +1,45 @@
+* {
+  margin: 0; 
+  padding: 0;
+}
+
+header {
+  position: static;	
+  left:0;
+  width: 100%;
+  height: 150px;
+  background-color: #4D4D4D
+}
+
+.left {
+  position: fixed;
+  width: 15%;
+  height: 100%;
+  background-color: lightgray;
+}
+
+.center {
+  position: fixed;
+  top: 150px;
+  left: 15%;
+  width: 75%;
+  height: 70%;
+  background-color: #EDEDED;
+  border-color: black;
+  border-bottom-width: 100px;
+  border-bottom-style: solid;
+}
+
+.center-content {
+  position= absoulte;
+	margin: 10px;
+
+}
+
+.right {
+  position: fixed;
+  left: 85%;
+  width: 15%;
+  height: 100%;
+  background-color: lightgray;
+}

@@ -103,7 +103,7 @@ var getUsername = function(){
 };
 
 // setTimeout(getUsername), 5000);  //commented out to show original vs. fix
-setTimeout(getUsername.binder(user), 5000);
+setTimeout(getUsername.bind(user), 5000);
 
 
 

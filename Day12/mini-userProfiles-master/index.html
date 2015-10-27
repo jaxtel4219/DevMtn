@@ -10,7 +10,7 @@
     <div class="users">
         <div class="userBreak" ng-repeat="user in users">
             <h1>{{user.first_name}} {{user.last_name}}</h1>
-             <img src="{{user.avatar}}">
+             <img ng-src="{{user.avatar}}">  <!--have to use ng-src or it will throw an error becuase the code loads faster than image and it internally says "{{user.avatar}} thing-->
               <br>
         </div>
     </div>

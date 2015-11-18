@@ -26,15 +26,15 @@ app.get('/hobbies/:type', mainController.getHobbiesType);
 
 
 
-app.put('/name/:name', mainCtrl.updateName);
+app.put('/name/:name', mainController.updateName);
 
-app.put('/location/:location', mainCtrl.updateLocation);
+app.put('/location/:location', mainController.updateLocation);
 
 
 
-app.post('/hobbies', mainCtrl.buildHobbies);
+app.post('/hobbies', mainController.buildHobbies);
 
-app.post('/occupations', mainCtrl.buildOccupations);
+app.post('/occupations', mainController.buildOccupations);
 
 
 
